@@ -1,0 +1,12 @@
+-ifndef(GAME_PB_HRL).
+-define(GAME_PB_HRL, true).
+-record(m__role__login__c2s, {msg_id=1001,name}).
+-record(m__proto__test__c2s, {msg_id=998,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10}).
+-record(m__proto__test__s2c, {msg_id=999,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10}).
+-record(p_role, {name,x,y}).
+-record(m__system__heartbeat__c2s, {msg_id=1000}).
+-record(m__battle__enter__s2c, {msg_id=1201}).
+-record(m__role__login__s2c, {msg_id=1100}).
+-record(m__battle__enter__c2s, {msg_id=1200}).
+-record(p_test, {v1,v2}).
+-endif.
